@@ -2236,7 +2236,7 @@
                             <label>Unn. SB:</label>
                         </div>
                         <div class="sheet-item" style="width:8%">
-                            <input type="number" name="attr_unnatural_str-bonus" value="@{unnatural-Strength} * @{str-bonus}" disabled='true'/>
+                            <input type="number" name="attr_unnatural_str-bonus" value="@{unnatural-Strength}" disabled='true'/>
                         </div>
 						<div class="sheet-item" style="width:15%" title="Astartes Power Armour Enhanced Strength Bonus">
                             <label>PA SB:</label>
@@ -2313,7 +2313,7 @@
                 <div class="sheet-2colrow">
 					<div class="sheet-hidden">
 						<input type="number" name="attr_tough-bonus" value="(floor(@{Toughness}/10))" disabled='true'/>
-						<input type="number" name="attr_unnatural_tough-bonus" value="@{unnatural-Toughness} * @{tough-bonus}" disabled="true"/>
+						<input type="number" name="attr_unnatural_tough-bonus" value="@{unnatural-Toughness}" disabled="true"/>
 						<input type="number" name="attr_relevant_tough-bonus" value="(((@{unnatural_tough-bonus} + @{tough-bonus}) + abs(@{unnatural_tough-bonus} - @{tough-bonus})) / 2)" disabled="true"/>
 					</div>
 					<div class="sheet-col">
